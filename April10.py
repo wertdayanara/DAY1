@@ -96,7 +96,7 @@ c_array = np.zeros(len(marray), dtype=complex)
 
 for i in range(0, len(marray)):
     c_array[i] = fourier_analysis(trianglewave, marray[i], o)
-print (np.conj(c_array[101])*(c_array[101]))
+print (np.conj(c_array[100])*(c_array[100]))
  
    
 def animate(i):
